@@ -1,0 +1,100 @@
+body{
+    height: 100vh;
+    display: grid;       /*bch na3ti toul ll head w toul ll footer w lbe9i yemchi ll main*/
+    grid-template-rows: auto 1fr auto;
+    
+
+}
+
+main{
+    text-align: center;
+    align-items: center;
+    
+}
+
+.cart .product{
+    display: flex;
+    background-color: #F0F0F0;
+    border: 2px solid #d9b36d;
+    margin-top: 1.8rem;
+    justify-content: space-between;
+    max-width: 450px;
+    min-width: 400px;
+    margin-inline: auto;  /* ykoun fi centre mta3 lpére*/
+    border-radius: 8px;
+    font-weight: 500;
+    box-shadow:0 6px 10px rgba(71, 98, 249, 0.378);
+    
+}
+ .product img {
+    width: 70px;
+    height: 80px;
+    border-radius:0.22rem;
+    margin: 3px;
+ }
+
+ .product .fa-trash-can{
+    color: red;
+    margin: 1rem;
+
+ }
+ 
+
+ .clear{
+    background-color: red;
+    color: white;
+    margin:1rem ;
+    border: red;
+    border-radius: 7px;
+    padding: 6px 8px;
+    font-size: 0.8rem;
+ }
+.clear:hover{
+    background-color: rgb(168, 3, 3);
+ }
+
+.clear i{
+    color: white;
+    margin: 0.3rem;
+}
+
+.summary{
+    background-color: white;
+    border-radius: 7px;
+    width: 240px;
+    border: 2px solid #4A6C43;
+    margin-inline: auto;
+    margin-top: 2.5rem;
+}
+.summary h1{
+    font-size: 1.2rem;
+    padding-block: 0.5rem;
+    border-bottom:1px solid black;
+}
+.summary div{
+    padding-inline: 0.5rem;
+    margin-block: 0.6rem;
+    justify-content: space-between;
+    
+}
+.summary .checkout{
+    color: white;
+    background-color: rgb(34, 34, 254);
+    padding-block: 0.6rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 7px;
+    border: 1px solid blue;
+    width: 100%;
+    
+}
+.summary a{
+    padding: 0.5rem;
+    color: red;
+    font-size: 0.9rem;
+}
+button:disabled{
+    opacity: 0.7;
+    cursor: not-allowed;
+    
+}

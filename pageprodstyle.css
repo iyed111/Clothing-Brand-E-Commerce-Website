@@ -1,0 +1,85 @@
+body{
+    height: 100vh;
+    display: grid;       /*bch na3ti toul ll head w toul ll footer w lbe9i yemchi ll main*/
+    grid-template-rows: auto 1fr auto;
+    
+
+}
+h1{
+    margin: 10px;
+    
+}
+main{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    max-width: 800px;
+    border: 2px solid #C1A36D;
+    box-shadow: 6px 10px 10px rgba(71, 98, 249, 0.1);
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(225, 225, 225, 0.9);
+}
+.product title{
+    justify-content: space-between;
+    display: flex;
+    
+}
+
+.product details .add{
+    display: flex;
+
+}
+
+
+main img{
+    width: 40%;
+    margin: 5px;
+    border: 2px solid #C1A36D;
+    border-radius: 8px;
+}
+.price{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(0, 48, 0);
+}
+.product details{
+    margin-inline: 1.1rem;
+    line-height: 1.44rem;
+    
+}
+.add{
+    background-color: rgb(34, 34, 250);
+    color: white;
+    border: 1px solid blue;
+    border-radius: 7px;
+    padding: 6px 8px;
+    font-size: 0.9rem;
+    gap: 0.33rem;
+    margin: 8px;
+}
+.description{
+    text-align: left;
+}
+
+button:hover {
+    background-color: #012357;
+}
+
+@media (width <600px){
+    main{
+        flex-wrap: wrap;
+        img{
+            margin-inline: auto; 
+            
+        }
+        .description{
+            margin-top: 2.3rem;
+            margin-bottom: 1.3rem;
+        }
+        
+    }
+    
+    
+}

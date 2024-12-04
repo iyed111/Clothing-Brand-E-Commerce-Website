@@ -1,0 +1,62 @@
+body{
+    height: 100vh;
+    display: grid;       /*bch na3ti toul ll head w toul ll footer w lbe9i yemchi ll main*/
+    grid-template-rows: auto 1fr auto;
+    
+
+}
+
+main{
+    text-align: center;
+    align-items: center;
+    
+    
+    display: flex;
+    max-width: 800px;
+    border: 2px solid #C1A36D;
+    box-shadow: 6px 10px 10px rgb(71, 98, 249);
+    border-radius: 8px;
+    margin-top: auto;
+    
+    
+
+    padding: 70px 50px;
+    
+    background-color: rgba(174, 192, 185, 0.9);
+}
+
+form{
+    
+    text-align: left;
+}
+.formcontrol{
+    margin-bottom: 20px;
+    border:1px solid #32432f;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;     /*bch yjiw fou9 b3adhom*/
+}
+
+.imput{
+    margin-bottom: 5px;
+}
+label {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #32432f; 
+}
+
+button{
+    background-color: rgb(34, 34, 250);
+    color: white;
+    border: 1px solid blue;
+    border-radius: 7px;
+    padding: 6px 8px;
+    font-size: 0.9rem;
+    gap: 0.33rem;
+    margin: 8px;
+}
+button:hover {
+    background-color: #012357;
+}

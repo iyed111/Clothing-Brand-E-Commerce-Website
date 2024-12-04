@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+html{
+    font-family: system-ui, sans-serif;
+}
+body{
+    background-color: #F4F4F4;    /*========*/
+}
+
+.header{
+    background-image: linear-gradient(to bottom, #F1E2B8, #D8C1A0)  ;
+    text-align: center;
+    padding: 40px 0px ;
+    
+}
+.header h1{
+    font-family: serif;
+    font-size: 45px;
+    color: #333;
+}
+.header p{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+li{
+    display: inline;        /*radithom fard star*/
+    margin-right: 28px;
+    transition: 200ms;
+    
+}
+ul{
+    padding-block: 10px;        /*wyaliw fl center*/
+    text-align: center;
+    height: 30px;
+    margin-top: 0;
+    background-color:#C7A85D;
+    box-shadow:  0 5px 6px rgba(0, 0, 0, 0.1);
+}
+li:hover{
+    background-color:#B7A15A;
+    border-radius: 13px;  
+    padding: 6px;
+    
+}
+nav{
+    
+    position: sticky;
+    top : 0 ;
+    z-index: 90;
+    background-color: #D8C1A0;
+}
+
+main{
+    margin-inline: auto;
+}
+
+footer{
+    height: 80px;
+    background-color: #333;
+    color:white;
+    text-transform: capitalize;
+    margin-top: 60px;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    
+
+}

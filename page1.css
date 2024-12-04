@@ -1,0 +1,128 @@
+.imgtop{
+    position: relative;
+    height: 30vh;
+    margin-bottom: 200px;
+}
+html {
+    scroll-behavior: smooth;        /*nrod transition smooth*/
+}
+
+.content{
+    font-size: 30px;
+    position: absolute;
+    top: 40%;
+    margin-left: 6%;
+    background-color :rgba(83, 71, 71, 0.5);
+    padding: 20px;
+    border-radius: 30px;
+    color: #fff;
+    
+}
+.lifestyle{
+    text-transform: uppercase;
+    font-size: 1.7rem;
+}
+.g{
+    margin-top: 11px;
+    font-weight: bold;
+}
+.sale{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.sale span{
+    color: red;
+    margin-left: 15px;
+}
+.freeshopping{
+    font-size: 1.5rem;
+}
+button{
+    background-color: #024166;
+    color: white;
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border:1px solid blue;
+    padding: 6px;
+}
+button:hover {
+    background-color: #012357;
+}
+
+.products{
+    width: 266px;
+    display:flex;
+    gap: 2rem;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+}
+main h1 {
+    border-bottom: 1px solid black;
+    text-transform: capitalize;
+    position:absolute;
+    left: 40px;
+    top : 620px
+    
+}
+
+.card{
+    border: 2px solid #C1A36D;
+    border-radius: 10px;
+    margin: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(225, 225, 225, 0.9);
+    box-shadow:  0 6px 15px rgba(71, 98, 249, 0.1);
+    transition: 0.3s ease;
+}
+.card:hover{
+    background-color: #fdffe1;
+    scale: 1.02;
+    transition: 300ms;
+    box-shadow: 0 10px 12px rgb(121, 43, 43);
+}
+.d1{
+    margin-bottom: 2px;
+    border: 1px solid #C1A36D;
+    
+}
+
+.prix{
+    margin-left: 0.88rem;
+    font-size: 16px;
+    font-weight: bold;
+    color: #18621a;
+    margin-top: 10px;
+    margin-left: 0;
+    
+}
+.add{
+    background-color:  #4A6C43;
+    border:#4A6C43 ;
+    margin-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.add:hover {
+    background-color: #3B5535;
+}
+.btnpx{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+
+
+@media (width <800px){
+    .products{
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
