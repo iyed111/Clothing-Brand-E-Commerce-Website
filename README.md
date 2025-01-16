@@ -1,4 +1,6 @@
 # Allureva E-Commerce Website
+a simple video showing the first version :
+https://github.com/user-attachments/assets/35589ba1-47d4-4847-8346-eeb1b0bad280
 
 This is a simple e-commerce website for **Allureva®**, a brand specializing in leather goods. The website allows users to browse products, add them to the cart, sign in, register, and more. The website features a clean design and basic functionalities that can be expanded upon.
 
